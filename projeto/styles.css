@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Azul claro */
+    color: #333;
+}
+
+header {
+    background: #00796b; /* Verde escuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Amarelo ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff; /* Branco */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #00796b; /* Verde escuro */
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria-container img {
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #00796b; /* Verde escuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #004d40; /* Verde mais escuro ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #00796b; /* Verde escuro */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para a seção de estatísticas */
+#estatisticas ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#estatisticas li {
+    margin: 5px 0;
+}
