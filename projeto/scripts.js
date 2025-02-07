@@ -102,4 +102,3 @@ suggestionButtons.forEach((btn) => {
     showWeatherData(city);
   });
 });
-//f2ea1b194660a063115687fc0e28430a
